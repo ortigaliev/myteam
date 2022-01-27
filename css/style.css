@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Poppins';
   src: url('fonts/Poppins-SemiBold.woff2') format('woff2'),
-      url('fonts/Poppins-SemiBold.woff') format('woff');
+  url('fonts/Poppins-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 @font-face {
   font-family: 'Poppins';
   src: url('fonts/Poppins-Bold.woff2') format('woff2'),
-      url('fonts/Poppins-Bold.woff') format('woff');
+  url('fonts/Poppins-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -83,6 +83,8 @@ img{
 }
 
 .site-nav {
+  width: 100%;
+  max-width: 1110px;
   display: flex;
   align-items: center;
   padding-top: 77px;
@@ -104,6 +106,8 @@ img{
 .navbar-list {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .navbar-item:not(:last-child){
   margin-right: 40px;
@@ -135,3 +139,129 @@ img{
   color: #002529;
 }
 
+/* SITE-HERO */
+.hero {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+  color: #fff;
+  padding-top: 54px;
+  padding-bottom: 250px;
+  position: relative;
+}
+
+.director-circle{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 54px;
+  left: -300px
+}
+
+.hero-circle-red{
+  position: absolute;
+  bottom: -20%;
+  right: 23px;
+  z-index: 1;
+}
+
+.site-title {
+  width: 605px;
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+  font-family: "Livvic" sans-serif;
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 700;
+}
+
+.site-text {
+  width: 445px;
+  margin-left: auto;
+  font-family: "Livvic" sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.hero-highlight-word{
+  color: var(--Light-Coral);
+}
+
+/* SETTING-SECTION */
+.setting-section {
+  background-color: var(--Deep-Jungle-Green);
+  z-index: 3;
+
+
+}
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1110px;
+  padding-top: 198px;
+  padding-bottom: 140px;
+  position: relative;
+
+}
+.setting-section-line{
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  border: none;
+  background-color: var(--Light-Coral);
+}
+
+.setting-title {
+  width: 548px;
+  padding: 0;
+  margin: 0;
+  padding-top: 54px;
+  margin-right: 125px;
+  font-family: "Livvic" sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+.setting-features {
+}
+.setting-feature-item {
+  display: flex;
+  align-items: center;
+}
+.setting-feature-item-img {
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin-right: 23px;
+  object-fit: cover;
+}
+.setting-feature-item-info {
+}
+.setting-feature-item-info-title {
+  font-family: "Livvic" sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: var(--Light-Coral);
+  margin-bottom: 16px;
+}
+.setting-feature-item-info-text {
+  font-family: "Livvic" sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.setting-feature-client-circle{
+  position: absolute;
+  right: -247px;
+  bottom: 0;
+}
