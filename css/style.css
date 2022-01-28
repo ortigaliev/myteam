@@ -265,3 +265,91 @@ img{
   right: -247px;
   bottom: 0;
 }
+
+/* STORY-TELLING-STORY-SECTION */
+.success-story-section {
+  padding-top: 140px;
+  padding-bottom: 150px;
+  background-color: var(--Deep-Jungle-Green);
+}
+
+.success-story-title {
+  width: 932px;
+  padding: 0;
+  padding-bottom: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Livvic" sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.success-story-highlight{
+  color: var(--Rapture-Blue);
+
+}
+.success-story-telling-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+}
+.success-story-telling-item {
+  width: 350px;
+  padding: 0;
+  margin: 0;
+  font-family: "Livvic" sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 7;
+}
+
+.quotes{
+  position: absolute;
+  top: -40px;
+  left: 37%;
+  z-index: 3;
+}
+
+.success-story-telling-item:not(:last-child){
+  margin-right: 30px;
+}
+.success-story-telling-text {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 24px;
+  font-family: "Livvic" sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #fff;
+  z-index: 5;
+
+}
+.success-story-telling-person {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2px;
+color: var(--Rapture-Blue);
+}
+.success-story-telling-position {
+  padding-bottom: 32px;
+  font-family: "Livvic" sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  font-style: italic;
+}
+.success-story-telling-img {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 50%;
+}
