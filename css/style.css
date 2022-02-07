@@ -637,6 +637,35 @@ img{
   bottom: -10%;
 }
 
-.plus-create{
-  color
+
+/*  Clients information section */
+.clients-info-section {
+  background-color: #012F34;
+}
+
+.clients-info-root {
+  padding-top: 140px;
+  padding-bottom: 150px;
+}
+.clients-info-header {
+  padding-bottom: 70px;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: "Livvic" sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.clients-info-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.clients-info-img{
+  display: block;
+  object-fit: cover;
+}
+
+.clients-info-img:not(:last-child){
+margin-right: 80px;
 }
