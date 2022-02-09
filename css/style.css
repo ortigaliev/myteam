@@ -517,7 +517,7 @@ img{
 
 .about-hero{
   display: flex;
- align-items: flex-start;
+  align-items: flex-start;
   position: relative;
   padding-top: 47px;
   padding-bottom: 176px;
@@ -667,5 +667,105 @@ img{
 }
 
 .clients-info-img:not(:last-child){
-margin-right: 80px;
+  margin-right: 80px;
+}
+
+
+
+/* Form SECTION */
+.form-section-root {
+  background-color: #014E56;
+  color: #fff;
+}
+
+.form-section-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 47px;
+  padding-bottom: 120px;
+}
+
+.form-info {
+
+}
+.form-info-header {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 16px;
+  font-family: "Livvic" sans-serif;
+  font-size: 64px;
+  line-height: 100px;
+  font-weight: 700;
+}
+
+.form-info-sub-header {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 54px;
+  font-family: "Livvic" sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #F67E7E;
+}
+.form-info-features {
+  padding: 0;
+  margin: 0;
+}
+
+.form-info-features-item {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.f-i-f-item-img {
+  display: block;
+  object-fit: cover;
+  margin-right: 23px;
+}
+
+.f-i-f-item-title {
+  font-family: "Livvic" sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.form-form {
+  margin-left: auto;
+
+}
+.fill-form {
+  width: 100%;
+  padding: 10px;
+
+}
+.form-input-wrapper {
+  width: 100%;
+  max-width: 544px;
+  color: #fff;
+  font-family: "Livvic" sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.form-input{
+  width: 100%;
+  background-color: transparent;
+  padding: 16px;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+
+
+.form-button{
+  padding: 10px 32px;
+  margin-top: 24px;
+  background-color: #fff;
+  color: #004047;
+  border-radius: 24px;
+  border: none;
 }
